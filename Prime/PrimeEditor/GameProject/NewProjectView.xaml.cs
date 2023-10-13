@@ -10,16 +10,17 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace PrimeEditor.GameProject
 {
     /// <summary>
-    /// Interaction logic for ProjectBrowserDiag.xaml
+    /// Interaction logic for NewProjectView.xaml
     /// </summary>
-    public partial class ProjectBrowserDiag : Window
+    public partial class NewProjectView : UserControl
     {
-        public ProjectBrowserDiag()
+        public NewProjectView()
         {
             InitializeComponent();
         }
